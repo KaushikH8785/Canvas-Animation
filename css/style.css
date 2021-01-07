@@ -1,0 +1,38 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #001e25;
+}
+#myCanvas {
+	width: 100%;
+	height: 100%;
+}
+#myCanvasText {
+	width: 100%;
+	height: 100%;	
+}
+#vid {
+	width: 100%;
+	height: auto;				
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+.logo-animation {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+.logo-animation img {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
